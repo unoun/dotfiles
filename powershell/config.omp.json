@@ -13,7 +13,7 @@
           "style": "powerline",
           "powerline_symbol": "\ue0b0",
           "foreground": "p:white",
-          "background": "p:orange",
+          "background": "p:black",
           "template": " \uf74a {{ .Path }} ",
           "properties": {
             "style": "unique"
