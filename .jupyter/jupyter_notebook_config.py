@@ -448,6 +448,8 @@ c = get_config()  #noqa
 ## The directory to use for notebooks and kernels.
 #  Default: ''
 # c.NotebookApp.notebook_dir = ''
+import os
+c.NotebookApp.notebook_dir = f"{os.environ.get('USERPROFILE')}\\Documents"
 
 ## Whether to open in a browser after starting.
 #                          The specific browser used is platform dependent and
@@ -1438,3 +1440,4 @@ c = get_config()  #noqa
 #  inactive timeout value.
 #  Default: 300
 # c.TerminalManager.cull_interval = 300
+c.FileCheckpoints.checkpoint_dir = f"{os.environ.get('USERPROFILE')}\\.ipynb_checkpoints"
