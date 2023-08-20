@@ -14,7 +14,7 @@
           "powerline_symbol": "\ue0b0",
           "foreground": "p:white",
           "background": "p:black",
-          "template": " \uf74a {{ .Path }} ",
+          "template": " \ue5ff {{ .Path }} ",
           "properties": {
             "style": "unique"
           }
@@ -41,7 +41,7 @@
             "branch_max_length": 25,
             "fetch_status": true,
             "fetch_upstream_icon": true,
-            "github_icon": "\uf7a3"
+            "github_icon": "\uf408 "
           }
         },
         {
@@ -80,7 +80,7 @@
           "style": "plain",
           "foreground": "p:white",
           "background": "transparent",
-          "template": "<p:blue><b>\uf5ef {{ .CurrentDate | date .Format }}</b></>"
+          "template": "<p:blue><b>\uf017 {{ .CurrentDate | date .Format }}</b></>"
         }
       ]
     }
