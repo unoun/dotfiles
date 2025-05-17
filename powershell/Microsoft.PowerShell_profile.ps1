@@ -10,6 +10,7 @@ $OutputEncoding = [System.Console]::OutputEncoding
 
 #
 $env:JUPYTER_CONFIG_DIR = "$(Split-Path -Path $ScriptDir)\.jupyter"
+$env:PIPENV_VENV_IN_PROJECT = "true"
 
 #
 Remove-Variable ScriptDir
